@@ -42,14 +42,13 @@ sudo apt-get install -y partitionmanager
 echo
 echo
 echo
-echo Installing Chrome & Chromium
+echo Installing Chrome
 echo
 echo
 echo
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 sudo dpkg -i google-chrome-stable_current_amd64.deb
 sudo rm google-chrome-stable_current_amd64.deb
-sudo apt-get install chromium-browser
 echo
 echo
 echo
