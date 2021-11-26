@@ -1,4 +1,5 @@
 #!/bin/sh
+#update
 echo
 echo
 echo
@@ -7,6 +8,7 @@ echo
 echo
 echo
 sudo apt-get update -y
+#upgrade
 echo
 echo
 echo
@@ -15,6 +17,7 @@ echo
 echo
 echo
 sudo apt-get full-upgrade -y
+#Neofetch
 echo
 echo
 echo
@@ -23,6 +26,7 @@ echo
 echo
 echo
 sudo apt-get install -y neofetch
+#net tools
 echo
 echo
 echo
@@ -31,6 +35,7 @@ echo
 echo
 echo
 sudo apt-get install -y net-tools
+#kde part. manager
 echo
 echo
 echo
@@ -42,6 +47,9 @@ sudo apt-get install -y partitionmanager
 echo
 echo
 echo
+#
+#chrome
+#TODO replace with brave or chroumium
 echo Installing Chrome
 echo
 echo
@@ -54,8 +62,11 @@ echo
 echo
 echo
 echo
+#autoremove
 echo Autoremoving unused packages
 echo
 echo
 echo
 sudo apt -y autoremove
+#done
+echo Done!
